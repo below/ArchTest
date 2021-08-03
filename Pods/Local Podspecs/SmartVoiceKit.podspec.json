@@ -1,0 +1,43 @@
+{
+  "name": "SmartVoiceKit",
+  "version": "6.6.3",
+  "summary": "A Conversation Kit for Smart Voice Hub Voice Assistant",
+  "description": "The Smart Voice Kit is a component that allows a mobile app to easily integrate some of the Smart Voice Hub Voice Assistant",
+  "homepage": "https://gard.telekom.de/gardwiki/display/OAS/iOS+SDK+Documentation",
+  "authors": {
+    "Deutsche Telekom AG": "q.liu@telekom.de"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5",
+  "source": {
+    "git": "https://github.com/vpaas-sdks/ios-SmartVoiceKit.git",
+    "tag": "6.6.3"
+  },
+  "source_files": "SmartVoiceKit/Sources/**/*.swift",
+  "resources": [
+    "SmartVoiceKit/**/*.{lproj,storyboard}",
+    "SmartVoiceKit/**/*.xcassets",
+    "SmartVoiceKit/**/*.xib",
+    "SmartVoiceKit/**/*.wav",
+    "SmartVoiceKit/**/*.m4a",
+    "SmartVoiceKit/**/*.pcm",
+    "SmartVoiceKit/**/*.gif",
+    "SmartVoiceKit/**/*.pdf",
+    "SmartVoiceKit/**/*.ttf"
+  ],
+  "license": {
+    "type": "Proprietary",
+    "text": "                   Copyright 2019\n"
+  },
+  "dependencies": {
+    "Kingfisher": [
+
+    ],
+    "Starscream": [
+      "= 3.1.1"
+    ]
+  },
+  "swift_version": "5"
+}

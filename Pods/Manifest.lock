@@ -1,0 +1,32 @@
+PODS:
+  - Kingfisher (6.3.0)
+  - SmartVoiceKit (6.6.3):
+    - Kingfisher
+    - Starscream (= 3.1.1)
+  - Starscream (3.1.1)
+
+DEPENDENCIES:
+  - SmartVoiceKit (from `https://github.com/vpaas-sdks/ios-SmartVoiceKit.git`)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - Starscream
+
+EXTERNAL SOURCES:
+  SmartVoiceKit:
+    :git: https://github.com/vpaas-sdks/ios-SmartVoiceKit.git
+
+CHECKOUT OPTIONS:
+  SmartVoiceKit:
+    :commit: e04eb69877052d13853630e5a121b133510eba2c
+    :git: https://github.com/vpaas-sdks/ios-SmartVoiceKit.git
+
+SPEC CHECKSUMS:
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  SmartVoiceKit: 1bc56b4af9e96e64b0408c876388e0e27e63faa2
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+
+PODFILE CHECKSUM: 92362e1d42358dd478d612b966b53dbe669ee16f
+
+COCOAPODS: 1.10.1

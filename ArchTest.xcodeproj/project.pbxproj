@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551CF3D9C0C9A054E8D0F966 /* Pods_ArchTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E649DF5755F7627CD4E22C4F /* Pods_ArchTest.framework */; };
+		7C655478466BF9184B15263C /* Pods_ArchTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802488A52B5A8926466B7619 /* Pods_ArchTestTests.framework */; };
+		C5216BF6BA360DAE3DC58993 /* Pods_ArchTest_ArchTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA1E5B7D89B2F59A028509 /* Pods_ArchTest_ArchTestUITests.framework */; };
 		D8903C3F26AF1A2E008FA440 /* ArchTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8903C3E26AF1A2E008FA440 /* ArchTestApp.swift */; };
 		D8903C4126AF1A2E008FA440 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8903C4026AF1A2E008FA440 /* ContentView.swift */; };
 		D8903C4326AF1A2F008FA440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8903C4226AF1A2F008FA440 /* Assets.xcassets */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19EE35C20AF0C61BBEAC3436 /* Pods-ArchTest-ArchTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchTest-ArchTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArchTest-ArchTestUITests/Pods-ArchTest-ArchTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		802488A52B5A8926466B7619 /* Pods_ArchTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BA1E5B7D89B2F59A028509 /* Pods_ArchTest_ArchTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchTest_ArchTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA4AD7F7FCA4CE9C77D873C /* Pods-ArchTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchTestTests.release.xcconfig"; path = "Target Support Files/Pods-ArchTestTests/Pods-ArchTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BC0FE2AA18D8168510BB617 /* Pods-ArchTest-ArchTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchTest-ArchTestUITests.release.xcconfig"; path = "Target Support Files/Pods-ArchTest-ArchTestUITests/Pods-ArchTest-ArchTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		99B6A4084204577E386194B0 /* Pods-ArchTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchTest.debug.xcconfig"; path = "Target Support Files/Pods-ArchTest/Pods-ArchTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C4ED76D5565E2AE05E4F12CE /* Pods-ArchTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchTestTests.debug.xcconfig"; path = "Target Support Files/Pods-ArchTestTests/Pods-ArchTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4B2039DD6F4913F111820F5 /* Pods-ArchTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchTest.release.xcconfig"; path = "Target Support Files/Pods-ArchTest/Pods-ArchTest.release.xcconfig"; sourceTree = "<group>"; };
 		D8903C3B26AF1A2E008FA440 /* ArchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8903C3E26AF1A2E008FA440 /* ArchTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchTestApp.swift; sourceTree = "<group>"; };
 		D8903C4026AF1A2E008FA440 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +57,7 @@
 		D8903C5726AF1A2F008FA440 /* ArchTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8903C5B26AF1A2F008FA440 /* ArchTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchTestUITests.swift; sourceTree = "<group>"; };
 		D8903C5D26AF1A2F008FA440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E649DF5755F7627CD4E22C4F /* Pods_ArchTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8903C6B26AF2910008FA440 /* ObjectMapper in Frameworks */,
+				551CF3D9C0C9A054E8D0F966 /* Pods_ArchTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C655478466BF9184B15263C /* Pods_ArchTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5216BF6BA360DAE3DC58993 /* Pods_ArchTest_ArchTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30317722E121197A6F77AA95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E649DF5755F7627CD4E22C4F /* Pods_ArchTest.framework */,
+				81BA1E5B7D89B2F59A028509 /* Pods_ArchTest_ArchTestUITests.framework */,
+				802488A52B5A8926466B7619 /* Pods_ArchTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D8903C3226AF1A2E008FA440 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				D8903C4F26AF1A2F008FA440 /* ArchTestTests */,
 				D8903C5A26AF1A2F008FA440 /* ArchTestUITests */,
 				D8903C3C26AF1A2E008FA440 /* Products */,
+				EE6D71169D03C74933B60219 /* Pods */,
+				30317722E121197A6F77AA95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +159,20 @@
 			path = ArchTestUITests;
 			sourceTree = "<group>";
 		};
+		EE6D71169D03C74933B60219 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99B6A4084204577E386194B0 /* Pods-ArchTest.debug.xcconfig */,
+				D4B2039DD6F4913F111820F5 /* Pods-ArchTest.release.xcconfig */,
+				19EE35C20AF0C61BBEAC3436 /* Pods-ArchTest-ArchTestUITests.debug.xcconfig */,
+				8BC0FE2AA18D8168510BB617 /* Pods-ArchTest-ArchTestUITests.release.xcconfig */,
+				C4ED76D5565E2AE05E4F12CE /* Pods-ArchTestTests.debug.xcconfig */,
+				8BA4AD7F7FCA4CE9C77D873C /* Pods-ArchTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8903C6026AF1A2F008FA440 /* Build configuration list for PBXNativeTarget "ArchTest" */;
 			buildPhases = (
+				09B12763C08BEA1EE32B1B41 /* [CP] Check Pods Manifest.lock */,
 				D8903C3726AF1A2E008FA440 /* Sources */,
 				D8903C3826AF1A2E008FA440 /* Frameworks */,
 				D8903C3926AF1A2E008FA440 /* Resources */,
+				05A19F4ACFA2C1AF3DE33A58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8903C6326AF1A2F008FA440 /* Build configuration list for PBXNativeTarget "ArchTestTests" */;
 			buildPhases = (
+				A394B1FC8B3375589A544B4F /* [CP] Check Pods Manifest.lock */,
 				D8903C4826AF1A2F008FA440 /* Sources */,
 				D8903C4926AF1A2F008FA440 /* Frameworks */,
 				D8903C4A26AF1A2F008FA440 /* Resources */,
@@ -177,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8903C6626AF1A2F008FA440 /* Build configuration list for PBXNativeTarget "ArchTestUITests" */;
 			buildPhases = (
+				506FF089F17D51FDF23B09A6 /* [CP] Check Pods Manifest.lock */,
 				D8903C5326AF1A2F008FA440 /* Sources */,
 				D8903C5426AF1A2F008FA440 /* Frameworks */,
 				D8903C5526AF1A2F008FA440 /* Resources */,
+				9ACEF2069610F0A649875662 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,7 +269,7 @@
 			);
 			mainGroup = D8903C3226AF1A2E008FA440;
 			packageReferences = (
-				D8903C6926AF2910008FA440 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+				D8903C6926AF2910008FA440 /* XCRemoteSwiftPackageReference "ObjectMapper.git" */,
 			);
 			productRefGroup = D8903C3C26AF1A2E008FA440 /* Products */;
 			projectDirPath = "";
@@ -261,6 +307,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05A19F4ACFA2C1AF3DE33A58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArchTest/Pods-ArchTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArchTest/Pods-ArchTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArchTest/Pods-ArchTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09B12763C08BEA1EE32B1B41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArchTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		506FF089F17D51FDF23B09A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArchTest-ArchTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ACEF2069610F0A649875662 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArchTest-ArchTestUITests/Pods-ArchTest-ArchTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArchTest-ArchTestUITests/Pods-ArchTest-ArchTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArchTest-ArchTestUITests/Pods-ArchTest-ArchTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A394B1FC8B3375589A544B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArchTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D8903C3726AF1A2E008FA440 /* Sources */ = {
@@ -422,6 +571,7 @@
 		};
 		D8903C6126AF1A2F008FA440 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B6A4084204577E386194B0 /* Pods-ArchTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,6 +593,7 @@
 		};
 		D8903C6226AF1A2F008FA440 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B2039DD6F4913F111820F5 /* Pods-ArchTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +615,7 @@
 		};
 		D8903C6426AF1A2F008FA440 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4ED76D5565E2AE05E4F12CE /* Pods-ArchTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +637,7 @@
 		};
 		D8903C6526AF1A2F008FA440 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA4AD7F7FCA4CE9C77D873C /* Pods-ArchTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +659,7 @@
 		};
 		D8903C6726AF1A2F008FA440 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19EE35C20AF0C61BBEAC3436 /* Pods-ArchTest-ArchTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +679,7 @@
 		};
 		D8903C6826AF1A2F008FA440 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC0FE2AA18D8168510BB617 /* Pods-ArchTest-ArchTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -584,7 +739,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D8903C6926AF2910008FA440 /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+		D8903C6926AF2910008FA440 /* XCRemoteSwiftPackageReference "ObjectMapper.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper.git";
 			requirement = {
@@ -597,7 +752,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		D8903C6A26AF2910008FA440 /* ObjectMapper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D8903C6926AF2910008FA440 /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			package = D8903C6926AF2910008FA440 /* XCRemoteSwiftPackageReference "ObjectMapper.git" */;
 			productName = ObjectMapper;
 		};
 /* End XCSwiftPackageProductDependency section */

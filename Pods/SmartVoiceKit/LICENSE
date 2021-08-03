@@ -1,0 +1,20 @@
+Smart Voice Kit License terms and contitions - iOS version
+
+SPDX-FileCopyrightText: Copyright (c) 2020 Orange
+
+This software is confidential and proprietary information of Orange and shall not be used without prior written consent of Orange.
+
+The use of the Smart Voice Kit is governed by the following conditions:
+Orange grants to DT and its subcontractors solely the rights to reproduce and use, without modifications, the Smart Voice Kit for the sole purpose of integration of the Smart Voice Kit into DTís mobile applications in accordance with the terms of the Platform and Partnership Agreement (ìPPA ì) executed between Orange and DT, for DTís Geographical Footprint and solely for the duration of the said PPA.
+No third party other than DT's subcontractors acting in the name and under the responsibility of DT is allowed to have access and use the Smart Voice Kit.
+
+
+The following dependencies are used with the Smart Voice Kit:
+
+Starscream
+Copyright © 2019 Vluxe. All rights reserved.
+Apache license v2.0 : https://github.com/daltoniam/Starscream/blob/master/LICENSE
+
+Kingfisher
+Copyright (c) 2019 Wei Wang
+Licence MIT (https://github.com/onevcat/Kingfisher/blob/master/LICENSE)

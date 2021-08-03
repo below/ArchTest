@@ -1,0 +1,228 @@
+
+/*Software Name: Smart Voice Kit - DjingoConversationKit
+
+ SPDX-FileCopyrightText: Copyright (c) 2017-2020 Orange
+
+ This software is confidential and proprietary information of Orange.
+ You are not allowed to disclose such Confidential Information nor to copy, use,
+ modify, or distribute it in whole or in part without the prior written
+ consent of Orange.
+
+ Author: The current developers of this code can be
+ found in the authors.txt file at the root of the project
+
+ Software description: Smart Voice Kit is the iOS SDK that allows to
+ integrate the Smart Voice Hub voice assistant into your app.
+
+ Module description: The main framework for the Smart Voice Kit is the iOS SDK
+ to integrate the Smart Voice Hub Audio Assistant inside your App.*/
+"DCalert.error.title" = "Information";
+"DCalert.error.message" = "Ein Fehler ist aufgetreten";
+"DCalert.error.close" = "OK";
+"DCalert.execute.error.title" = "";
+"DCalert.execute.error.message" = "Funktion nicht verfügbar";
+"Pull to refresh" = "Zum Aktualisieren herunterziehen";
+"Updating" = "Lädt …";
+"Release to update" = "Loslassen zum Aktualisieren";
+"Last update" = "Letztes Update:";
+"DCalert.audio.rightsaccess.title" = "Zugriff auf Mikrofon erlauben";
+"DCalert.audio.rightsaccess.message" = "Bitte erlaube den Zugriff auf das Mikrofon, um den Sprachassistenten nutzen zu können.";
+"DCalert.audio.rightsaccess.cancel" = "Abbrechen";
+"DCalert.audio.rightsaccess.settings" = "Einstellungen";
+"feedback.title" = "Missverstanden";
+"feedback.subtitle" = "Dein Feedback hilft, den Sprachassistenten zu verbessern.";
+"feedback.validate" = "Senden";
+"feedback.cancel" = "Abbrechen";
+"feedback.thanks" = "Danke für Dein Feedback!";
+"feedback.networkFailure" = "Dein Verlauf ist gerade nicht verfügbar. Bitte überprüfe deine Internet-Verbindung und versuch es nochmal.";
+"feedback.NONE" = "";
+"feedback.TBC" = "Spracheingabe verstanden und richtige Funktion";
+"feedback.SPEECH_UNDERSTOOD_WRONG_SKILL_INVOKED" = "Spracheingabe verstanden, aber falsche Funktion.";
+"feedback.SPEECH_MISUNDERSTOOD_RIGHT_SKILL_INVOKED" = "Spracheingabe nicht verstanden, aber richtige Funktion.";
+"feedback.SPEECH_MISUNDERSTOOD_WRONG_SKILL_INVOKED" = "Spracheingabe nicht verstanden und falsche Funktion.";
+"feedback.UNINTENDED_ACTIVATION" = "Der Speaker hat sich von alleine aktiviert.";
+"feedback.SPEECH_VOCALISED_WRONGLY" = "Die Sprachausgabe der Antwort war nicht gut.";
+"feedback.SPEECH_MISUNDERSTOOD" = "";
+"feedback.optin.title" = "Missverstanden";
+"feedback.optin.head" = "Spracherkennung verbessern";
+"djingo.feedback.optin.body" = "Du kannst uns helfen, die Spracherkennung und damit dein Nutzungserlebnis zu verbessern, indem du fehlerhafte oder missverstandene Befehle als \"Missverstanden\" markierst.\n\nWenn du damit einverstanden bist, dass wir zukünftig deine Sprachdaten analysieren, dann drücke bitte auf \"WEITER\". Dein vormaliger Widerspruch zur Analyse der Sprachdaten wird damit aufgehoben. Bei den Datenschutzeinstellungen kannst du diesen Widerspruch für die Zukunft jederzeit wieder tätigen.";
+"magenta.feedback.optin.body" = "Du kannst uns helfen, die Spracherkennung und damit dein Nutzungserlebnis zu verbessern, indem du fehlerhafte oder missverstandene Befehle als \"Missverstanden\" markierst.\n\nWenn du damit einverstanden bist, dass wir zukünftig deine Sprachdaten analysieren, dann drücke bitte auf \"WEITER\". Dein vormaliger Widerspruch zur Analyse der Sprachdaten wird damit aufgehoben. Bei den Datenschutzeinstellungen kannst du diesen Widerspruch für die Zukunft jederzeit wieder tätigen.";
+"feedback.optin.accept" = "Weiter";
+"feedback.optin.refuse" = "Abbrechen";
+"feedback.optin.error.message" = "Fehler beim Speichern der Zugriffsrechte.";
+"memolist.zero" = "Elemente";
+"memolist.item" = "Element";
+"memolist.items" = "Elemente";
+"memolist.items.format" = "+%d%@ weitere";
+"memolist.added" = "Hinzugefügt";
+"memolist.deleted" = "Gelöscht";
+"memolist.shoppingList" = "Einkaufsliste";
+"memolist.details" = "DETAILS";
+"currentTime.title" = "Zeit";
+"timer.title" = "Timer";
+"timer.added" = "Hinzugefügt";
+"timer.deleted" = "Gelöscht";
+"currentDate.title" = "Kalender";
+"music.playing" = "Abspielen";
+
+/*Is the song already playing (status) or will it be played after pushing a button (action)?
+If status: Spielt Song 
+If action: Song abspielen*/
+"music.playing.deezerTrack" = "Spielt Song";
+
+/*Is the artist already playing (status) or will he/she be played after pushing a button (action)?
+
+If status: Spielt Künstler 
+
+If action: Künstler abspielen*/
+"music.playing.deezerArtist" = "Spielt Künstler";
+
+/*Is the album already playing (status) or will it be played after pushing a button (action)?
+
+If status: Spielt Album 
+If action: Album abspielen*/
+"music.playing.deezerAlbum" = "Spielt Album";
+
+/*Is the playlist already playing (status) or will it be played after pushing a button (action)?
+
+If status: Spielt Playlist 
+If action: Playlist abspielen*/
+"music.playing.deezerPlaylist" = "Spielt Playlist";
+
+/*Is the flow already playing (status) or will it be played after pushing a button (action)?
+
+If status: Spielt Flow 
+--> On the German Deezer Page this mix is also called „Flow“ so we can use this wording for the German translations as well 
+
+If action: Flow abspielen*/
+"music.playing.deezerUser" = "Spielt Flow";
+
+/*Is the radio already playing (status) or will it be played after pushing a button (action)?
+If status: Spielt Radio 
+If action: Radio abspielen*/
+"music.playing.deezerRadio" = "Spielt Radio";
+
+/*Are the favorites already playing (status) or will they be played after pushing a button (action)?
+
+If status: Spielt Favoriten 
+If action: Favoriten abspielen*/
+"music.playing.deezerUserFavorites" = "Spielt Favoriten";
+"music.Deezer.subTitle" = "Deezer";
+"music.Deezer.details" = "DETAILS";
+"iot.device.lights" = "Licht";
+"weather.details" = "DETAILS";
+"navigationBar.menu.title" = "Menü";
+"navigationBar.menu.deleteall" = "Alle Inhalte löschen";
+"navigationBar.menu.cancel" = "Abbrechen";
+"navigationBar.menu.delete" = "Einzelne Inhalte löschen";
+"navigationBar.menu.filters" = "Inhalte filtern";
+"Filters.title" = "Filter";
+"Filters.results" = "Ergebnisse anzeigen";
+"Filters.enum.all" = "Gesamter Verlauf";
+"Filters.enum.today" = "Heute";
+"Filters.enum.yesterday" = "Gestern";
+"Filters.enum.last7days" = "Letzte 7 Tage";
+"Filters.enum.thisMonth" = "Dieser Monat";
+"Filters.enum.lastMonth" = "Letzter Monat";
+"Filters.header.all" = "Gesamter Verlauf";
+"Filters.header.openFilterPage" = "Filter";
+"Resend" = "Erneut senden";
+"Feedback" = "Missverstanden";
+"Copy" = "Kopieren";
+"Delete" = "Löschen";
+
+/*What is Code? The password? If so the wording should be „Passwort“*/
+"Code" = "Code";
+"Enunciate" = "Abspielen";
+"DC.services.title" = "Dienste";
+"DC.services.category.all" = "Alle";
+"DC.services.cell.associate" = "zuordnen";
+"DC.services.cell.not.associated" = "nicht zugeordnet";
+"history.error" = "Beim Wiederherstellen des Verlaufs ist ein technischer Fehler aufgetreten. Bitte versuch es später noch einmal.";
+"djingo.welcome.message" = "Hallo, ich bin Djingo. Wie kann ich dich unterstützen?";
+"magenta.welcome.message" = "Hallo, ich bin Magenta. Wie kann ich dich unterstützen?";
+"DC.history.delete.count.format.single" = "%d ausgewähltes Element";
+"DC.history.delete.count.format" = "%d ausgewählte Elemente";
+"DC.history.delete.button" = "Löschen";
+"djingo.DC.history.reached.end.message" = "Du bist jetzt am Anfang des Verlaufs.";
+"magenta.DC.history.reached.end.message" = "Du bist jetzt am Anfang des Verlaufs.";
+"djingo.DC.history.filter.reached.end.message" = "Du hast den Anfang deines Filters im Gespräch mit dem Assistenten erreicht.";
+"djingo.DC.history.filter.reached.end.bottom.message" = "Im Gespräch mit dem Assistenten hast du das Ende deines Filters erreicht.";
+"magenta.DC.history.filter.reached.end.message" = "Du hast den Anfang deines Filters im Gespräch mit dem Assistenten erreicht.";
+"magenta.DC.history.filter.reached.end.bottom.message" = "Im Gespräch mit dem Assistenten hast du das Ende deines Filters erreicht.";
+"DC.genericCard.imageList.zero" = "Elemente";
+"DC.genericCard.imageList.item" = "Element";
+"DC.genericCard.imageList.items" = "Elemente";
+"DC.genericCard.imageList.format" = "%d andere %@";
+"DC.genericCard.genericList.zero" = "Elemente";
+"DC.genericCard.genericList.item" = "Element";
+"DC.genericCard.genericList.items" = "Elemente";
+"DC.genericCard.genericList.format" = "%d andere %@";
+"deleteHistory.title" = "Verlauf";
+"deleteHistory.head" = "Gesamten Verlauf löschen";
+"deleteHistory.body" = "Wenn du deinen Verlauf löschst, werden alle Elemente unwiderruflich gelöscht.";
+"deleteHistory.confirm" = "Bestätigen";
+"deleteHistory.cancel" = "Abbrechen";
+"deleteUser.title" = "Nutzerdaten löschen";
+"deleteUser.head" = "Das passiert, wenn du dein Benutzerkonto löschst:";
+"djingo.deleteUser.body" = "▪︎ Dein Telekom Benutzerkonto bleibt bestehen, nur dein Hallo Magenta Benutzerkonto wird gelöscht.\n\n▪︎ Alle deine Sprachdaten werden unwiderruflich gelöscht.\n\n▪︎ Auf allen genutzten Speakern und in allen Apps werden die Einstellungen für den Sprachassistenten gelöscht.";
+"magenta.deleteUser.body" = "▪︎ Dein Telekom Benutzerkonto bleibt bestehen, nur dein Hallo Magenta Benutzerkonto wird gelöscht.\n\n▪︎ Alle deine Sprachdaten werden unwiderruflich gelöscht.\n\n▪︎ Auf allen genutzten Speakern und in allen Apps werden die Einstellungen für den Sprachassistenten gelöscht.";
+"deleteUser.confirm" = "Löschen";
+"deleteUser.cancel" = "Abbrechen";
+"DC.deleteSomeHistoryItems.title" = "Verlauf löschen";
+"DC.deleteSomeHistoryItems.message" = "Möchtest du diese Elemente wirklich löschen? Das kann ein paar Minuten dauern.";
+"DC.deleteSomeHistoryItems.cancel" = "Abbrechen";
+"DC.deleteSomeHistoryItems.ok" = "Löschen";
+"djingo.input.textfield.placeholder" = "Frag Djingo …";
+"magenta.input.textfield.placeholder" = "Frag Hallo Magenta …";
+"conversation.message.not.delivered" = "Deine Nachricht wurde noch nicht gesendet";
+"DC.error.micro.notAvailable" = "Das Mikrofon ist nicht verfügbar";
+"disabled.response.text" = "Ok";
+"DC.bubble.error.header.message" = "Hmm, das habe ich nicht verstanden.";
+"DC.ContextualRecommendation.DIDNT_UNDERSTOOD_SPEECH.botResponse" = "Hmm, versuche doch einmal folgende Fragen:";
+"DC.ContextualRecommendation.COULDNT_RESOLVE_INTENT.botResponse" = "Das weiß ich leider nicht. Probiere doch einmal folgenden Fragen:";
+"Filters.range.title" = "Zeitraum";
+"Filters.speaker.title" = "Speaker";
+"Filters.speaker.all" = "Alle";
+
+/*New feature : Share the content of a bubble with iOS native share feature*/
+"Share" = "Teilen";
+"feedback.badge.text" = "";
+"djingo.history.filter.empty.text" = "Im ausgewählten Zeitraum ist keine Konversation mit dem Assistenten verfügbar.";
+"djingo.history.filter.empty.title" = "Dein Verlauf ist leer.";
+"magenta.history.filter.empty.text" = "Im ausgewählten Zeitraum ist keine Konversation mit dem Assistenten verfügbar.";
+"magenta.history.filter.empty.title" = "Dein Verlauf ist leer.";
+"djingo.history.empty.text" = "Sobald du mit dem Sprachassistenten sprichst, siehst du hier deine Sprachbefehle und die Antworten.";
+"djingo.history.empty.title" = "Dein Verlauf ist leer.";
+"magenta.history.empty.text" = "Sobald du mit dem Sprachassistenten sprichst, siehst du hier deine Sprachbefehle und die Antworten.";
+"magenta.history.empty.title" = "Dein Verlauf ist leer.";
+"SVK.djingo.GDPR.title" = "Datenschutz";
+"SVK.magenta.GDPR.title" = "Datenschutz";
+"SVK.GDPR.tncAgrements.title" = "Sprachdatenanalyse";
+"SVK.GDPR.datas.title" = "Sprachdaten verwalten";
+"SVK.GDPR.datas.showmore" = "Mehr";
+"SVK.GDPR.datas.showless" = "Weniger";
+"SVK.GDPR.deleteHistory.button" = "Gesamten Verlauf löschen";
+"SVK.GDPR.deleteUser.button" = "Nutzerdaten löschen";
+"SVK.toast.deletion.error.message" = "Das Element konnte nicht gelöscht werden, da keine Internet-Verbindung besteht.";
+"SVK.toast.consent.error.message" = "Die Einstellung konnte nicht gespeichert werden, da keine Internet-Verbindung besteht.";
+"SVK.toast.feedback.error.message" = "Dein Feedback konnte nicht gesendet werden, da keine Internet-Verbindung besteht.";
+"DC.toast.delete.message.format.single" = "Ein Element wird gelöscht.";
+"DC.toast.delete.message.format" = "%d Elemente werden gelöscht.";
+"DC.toast.delete.action" = "ABBRECHEN";
+"DC.toast.deleteall.message" = "Der Verlauf wird gelöscht.";
+
+/*Filter done button text*/
+/*Fuzzy*/
+"Filter.button.done" = "Fertig";
+
+/*No internet error message*/
+"SVK.toast.no.internet.error.message" = "Es besteht keine Verbindung zum Internet.";
+
+/*Network failure message*/
+"feedback.networkFailure.title" = "Keine Internet-Verbindung";
+"secondary.welcome.message" = "Ich höre dir zu...";
+"SVK.no.histroy.error.title" = "Verlauf löschen nicht möglich";
+"SVK.no.histroy.error.message" = "Du kannst den Verlauf nicht löschen, da dein Verlauf leer ist.";
+"SVK.filter.no.histroy.error.title" = "Verlauf filtern nicht möglich";
+"SVK.filter.no.histroy.error.message" = "Du kannst den Verlauf nicht filtern, da dein Verlauf leer ist.";
