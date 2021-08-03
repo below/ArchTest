@@ -1,0 +1,40 @@
+{
+  "name": "QiviconSDK",
+  "version": "1.1.1",
+  "summary": "A short description of QiviconSDK.",
+  "description": "A short description of QiviconSDK.",
+  "homepage": "https://www.qivicon.com/en/",
+  "license": "Copyright by Deutsche Telekom AG.",
+  "authors": {
+    "Horatiu Copaciu": "horatiu.copaciu@endava.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://smarthome-wbench.wesp.telekom.net/gitlab/SMARTHOME/qivicon_ios_api.git",
+    "tag": "1.1.1"
+  },
+  "source_files": [
+    "qivicon_ios_api",
+    "qivicon_ios_api/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "default_subspecs": "Core",
+  "requires_arc": true,
+  "static_framework": true,
+  "dependencies": {
+    "SocketRocket": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": [
+        "qivicon_ios_api",
+        "qivicon_ios_api/**/*.{h,m}"
+      ]
+    }
+  ]
+}

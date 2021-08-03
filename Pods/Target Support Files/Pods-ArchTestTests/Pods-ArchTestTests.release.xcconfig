@@ -1,8 +1,8 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher" "${PODS_CONFIGURATION_BUILD_DIR}/SmartVoiceKit" "${PODS_CONFIGURATION_BUILD_DIR}/Starscream"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher" "${PODS_CONFIGURATION_BUILD_DIR}/QiviconSDK" "${PODS_CONFIGURATION_BUILD_DIR}/SmartVoiceKit" "${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket" "${PODS_CONFIGURATION_BUILD_DIR}/Starscream"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SmartVoiceKit/SmartVoiceKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Starscream/Starscream.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "Accelerate" -framework "CFNetwork" -framework "Kingfisher" -framework "SmartVoiceKit" -framework "Starscream" -weak_framework "Combine" -weak_framework "SwiftUI"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/QiviconSDK/QiviconSDK.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SmartVoiceKit/SmartVoiceKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket/SocketRocket.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Starscream/Starscream.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -l"icucore" -framework "Accelerate" -framework "CFNetwork" -framework "Kingfisher" -framework "Security" -framework "SmartVoiceKit" -framework "SocketRocket" -framework "Starscream" -weak_framework "Combine" -weak_framework "SwiftUI"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

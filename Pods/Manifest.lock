@@ -1,32 +1,45 @@
 PODS:
   - Kingfisher (6.3.0)
+  - QiviconSDK/Core (1.1.1):
+    - SocketRocket
   - SmartVoiceKit (6.6.3):
     - Kingfisher
     - Starscream (= 3.1.1)
+  - SocketRocket (0.5.1)
   - Starscream (3.1.1)
 
 DEPENDENCIES:
+  - QiviconSDK/Core (from `https://smarthome-wbench.workbench.telekom.de/gitlab/SMARTHOME/qivicon_ios_api.git`, branch `release/version-1.1.0`)
   - SmartVoiceKit (from `https://github.com/vpaas-sdks/ios-SmartVoiceKit.git`)
 
 SPEC REPOS:
   trunk:
     - Kingfisher
+    - SocketRocket
     - Starscream
 
 EXTERNAL SOURCES:
+  QiviconSDK:
+    :branch: release/version-1.1.0
+    :git: https://smarthome-wbench.workbench.telekom.de/gitlab/SMARTHOME/qivicon_ios_api.git
   SmartVoiceKit:
     :git: https://github.com/vpaas-sdks/ios-SmartVoiceKit.git
 
 CHECKOUT OPTIONS:
+  QiviconSDK:
+    :commit: b5ec09c2a56dab4fe11d16f923987744583b5206
+    :git: https://smarthome-wbench.workbench.telekom.de/gitlab/SMARTHOME/qivicon_ios_api.git
   SmartVoiceKit:
     :commit: e04eb69877052d13853630e5a121b133510eba2c
     :git: https://github.com/vpaas-sdks/ios-SmartVoiceKit.git
 
 SPEC CHECKSUMS:
   Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  QiviconSDK: 90239ae676a2f8545135c2b339a4c7f2ad6d94fb
   SmartVoiceKit: 1bc56b4af9e96e64b0408c876388e0e27e63faa2
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
 
-PODFILE CHECKSUM: 92362e1d42358dd478d612b966b53dbe669ee16f
+PODFILE CHECKSUM: 1dc20a1f6fe69fbf17d0c5b547204b11a4ae7734
 
 COCOAPODS: 1.10.1
