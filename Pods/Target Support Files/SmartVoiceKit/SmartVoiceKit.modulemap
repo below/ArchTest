@@ -1,6 +1,0 @@
-framework module SmartVoiceKit {
-  umbrella header "SmartVoiceKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

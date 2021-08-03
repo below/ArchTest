@@ -6,7 +6,7 @@ target 'ArchTest' do
   use_frameworks!
 
   # Pods for ArchTest
-  pod 'SmartVoiceKit', :git => 'https://github.com/vpaas-sdks/ios-SmartVoiceKit.git'
+#  pod 'SmartVoiceKit', :git => 'https://github.com/vpaas-sdks/ios-SmartVoiceKit.git'
   pod 'MoEngage-iOS-SDK','~>7.0'
 
   target 'ArchTestTests' do
