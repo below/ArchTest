@@ -176,11 +176,21 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${PODS_ROOT}/MORichNotification/Frameworks/MORichNotification.framework"
+  install_framework "${PODS_ROOT}/MoEngage-iOS-SDK/Frameworks/MoEngage.framework"
+  install_framework "${PODS_ROOT}/MoEngage-iOS-SDK/Frameworks/MoEngageCore.framework"
+  install_framework "${PODS_ROOT}/MoEngage-iOS-SDK/Frameworks/MOAnalytics.framework"
+  install_framework "${PODS_ROOT}/MoEngage-iOS-SDK/Frameworks/MOMessaging.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SmartVoiceKit/SmartVoiceKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${PODS_ROOT}/MORichNotification/Frameworks/MORichNotification.framework"
+  install_framework "${PODS_ROOT}/MoEngage-iOS-SDK/Frameworks/MoEngage.framework"
+  install_framework "${PODS_ROOT}/MoEngage-iOS-SDK/Frameworks/MoEngageCore.framework"
+  install_framework "${PODS_ROOT}/MoEngage-iOS-SDK/Frameworks/MOAnalytics.framework"
+  install_framework "${PODS_ROOT}/MoEngage-iOS-SDK/Frameworks/MOMessaging.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SmartVoiceKit/SmartVoiceKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework"
 fi

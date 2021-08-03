@@ -1,16 +1,22 @@
 PODS:
   - Kingfisher (6.3.0)
+  - MoEngage-iOS-SDK (7.0.4):
+    - MORichNotification (< 5.1.0, >= 5.0.0)
+  - MORichNotification (5.0.1)
   - SmartVoiceKit (6.6.3):
     - Kingfisher
     - Starscream (= 3.1.1)
   - Starscream (3.1.1)
 
 DEPENDENCIES:
+  - MoEngage-iOS-SDK (~> 7.0)
   - SmartVoiceKit (from `https://github.com/vpaas-sdks/ios-SmartVoiceKit.git`)
 
 SPEC REPOS:
   trunk:
     - Kingfisher
+    - MoEngage-iOS-SDK
+    - MORichNotification
     - Starscream
 
 EXTERNAL SOURCES:
@@ -24,9 +30,11 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  MoEngage-iOS-SDK: 71451fb44893536b0c70ff7dace1989e6fa734ff
+  MORichNotification: 989d5ccdd71ae7c7d07af689d9b7afcf8ed25234
   SmartVoiceKit: 1bc56b4af9e96e64b0408c876388e0e27e63faa2
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
 
-PODFILE CHECKSUM: eef92bf04fe0a1c938a6e9ae7a57149757a26890
+PODFILE CHECKSUM: 4558350247bf436aba56162e901dae2d573432de
 
 COCOAPODS: 1.10.2

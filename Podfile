@@ -7,7 +7,7 @@ target 'ArchTest' do
 
   # Pods for ArchTest
   pod 'SmartVoiceKit', :git => 'https://github.com/vpaas-sdks/ios-SmartVoiceKit.git'
-#  pod 'MoEngage-iOS-SDK','~>7.0'
+  pod 'MoEngage-iOS-SDK','~>7.0'
 
   target 'ArchTestTests' do
     inherit! :search_paths

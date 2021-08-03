@@ -1,4 +1,9 @@
 ${PODS_ROOT}/Target Support Files/Pods-ArchTest/Pods-ArchTest-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${PODS_ROOT}/MORichNotification/Frameworks/MORichNotification.framework
+${PODS_ROOT}/MoEngage-iOS-SDK/Frameworks/MoEngage.framework
+${PODS_ROOT}/MoEngage-iOS-SDK/Frameworks/MoEngageCore.framework
+${PODS_ROOT}/MoEngage-iOS-SDK/Frameworks/MOAnalytics.framework
+${PODS_ROOT}/MoEngage-iOS-SDK/Frameworks/MOMessaging.framework
 ${BUILT_PRODUCTS_DIR}/SmartVoiceKit/SmartVoiceKit.framework
 ${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
