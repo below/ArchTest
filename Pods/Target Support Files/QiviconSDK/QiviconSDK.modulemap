@@ -1,6 +1,0 @@
-framework module QiviconSDK {
-  umbrella header "QiviconSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

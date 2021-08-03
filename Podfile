@@ -7,7 +7,7 @@ target 'ArchTest' do
 
   # Pods for ArchTest
   pod 'SmartVoiceKit', :git => 'https://github.com/vpaas-sdks/ios-SmartVoiceKit.git'
-  pod 'QiviconSDK/Core', :git => 'https://smarthome-wbench.workbench.telekom.de/gitlab/SMARTHOME/qivicon_ios_api.git', :branch => 'release/version-1.1.0'
+#  pod 'MoEngage-iOS-SDK','~>7.0'
 
   target 'ArchTestTests' do
     inherit! :search_paths

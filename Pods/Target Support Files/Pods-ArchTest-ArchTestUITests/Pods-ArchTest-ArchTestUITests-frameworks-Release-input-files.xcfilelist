@@ -1,5 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-ArchTest-ArchTestUITests/Pods-ArchTest-ArchTestUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
 ${BUILT_PRODUCTS_DIR}/SmartVoiceKit/SmartVoiceKit.framework
-${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework
 ${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
